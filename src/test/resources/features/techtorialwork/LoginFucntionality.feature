@@ -1,7 +1,10 @@
+
+@smoke @regression
 Feature:Testing the Login Functionality of Techtorial Work Website
   Background: Validate title and visibility of log_in
     Given User validates the title is 'techtorial'
     And user validates the login is visibale on the page
+
 
   Scenario: Happy Path Login Functionality (Positive)
 #  Given User validates the title is 'techtorial'

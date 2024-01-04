@@ -1,3 +1,5 @@
+
+@regression
 Feature: Testing Adding Product Functionality in TechtorialWork Website
 
 

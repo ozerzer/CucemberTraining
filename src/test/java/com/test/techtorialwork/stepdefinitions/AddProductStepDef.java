@@ -56,7 +56,7 @@ public class AddProductStepDef {
         productWorkPage.filterCategories(category,subCategory);
     }
     @When("User clicks three dots and view button from ProductPage")
-    public void user_clicks_three_dots_and_view_button_from_product_page() {
+    public void user_clicks_three_dots_and_view_button_from_product_page() throws InterruptedException {
     productWorkPage.clickActionAndViewButton();
     }
     @Then("User validates {string} and {string} from action view")

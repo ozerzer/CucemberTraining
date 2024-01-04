@@ -22,6 +22,6 @@ public class WorkHook {
     public void tearDown(Scenario scenario){
         Browserutils.getScreenShotWithCucumber(driver,scenario);
 
-        //driver.quit();
+        driver.quit();
     }
 }

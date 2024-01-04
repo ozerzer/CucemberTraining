@@ -112,9 +112,12 @@ public class ProductWorkPage {
         Browserutils.selectBy(this.sub_category,subCategory,"text");
     }
 //
-    public void clickActionAndViewButton(){
+    public void clickActionAndViewButton() throws InterruptedException {
+        Thread.sleep(1000);
         actionButtons.get(0).click();
+        Thread.sleep(2000);
         viewButtons.get(0).click();
+        Thread.sleep(1000);
     }
 
     public void categoryInformation(String expectedCategory,String expectedSubCategory){
